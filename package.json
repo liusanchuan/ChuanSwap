@@ -1,6 +1,6 @@
 {
-  "name": "@ChuanSwap/interface",
-  "description": "ChuaSwap Interface",
+  "name": "@uniswap/interface",
+  "description": "Uniswap Interface",
   "homepage": "https://liusanchuan.github.io/ChuanSwap",
   "private": true,
   "devDependencies": {
@@ -135,7 +135,7 @@
     "postinstall": "yarn compile-contract-types",
     "start": "yarn compile-contract-types && react-scripts start",
     "test": "react-scripts test --env=jsdom",
-    "prestart": "yarn graphql:generate && touch src/locales/en-US.po"
+    "prestart": "yarn graphql:generate && touch src/locales/en-US.po",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
